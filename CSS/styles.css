@@ -6,9 +6,9 @@
 	box-sizing: border-box;
 }
 body{
-	background-color: #F8EDE3;
+	background-color: #B6E2A1;
 	font-family: 'Bree Serif', serif;
-	color:#D0B8A8;
+	color:#FFFBC1;
 	}
 #my-avatar {
 	width: 150px;
@@ -19,5 +19,25 @@ body{
 	}
 	#my-name{
 font-family: 'Kaushan Script', cursive;
-color:#7D6E83;
+color:#FEBE8C;
 	}
+#left-side{
+	width: 50%;
+	display: inline-block;
+}
+#right-side{
+	width:49%;
+	display: inline-block;
+	text-align: right;
+}
+a {
+	color:#F7A4A4;
+	text-decoration: none;
+	border-bottom: 1px dotted #F7A4A4;
+}
+header {
+	margin-top: 16px;
+}
+.nav-link {
+margin-left: 8px;
+}
