@@ -79,16 +79,28 @@ footer > section {
 #hero-banner {
 	background: linear-gradient(150deg, purple, lightblue, purple);
 }
+
 #hero-banner > div {
-	width: 50%;
-	margin: 0 auto;
+	width: 100vw;
+	display: flex;
+	column-gap: 16px;
+	padding: 16px;
 }
+
 #hero-banner > div > div {
-	display: inline-block;
+	/*display: inline-block;*/
 }
-#hero-banner h1,
+
+#hero-banner h1, 
 #hero-banner h2 {
 	color: lightyellow;
+}
+
+#hero-banner h1{
+	font-size: 1rem;
+}
+#hero-banner h2 {
+	font-size: 1.1rem;
 }
 
 h3 {
