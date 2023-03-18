@@ -87,6 +87,13 @@ footer > section {
 	padding: 16px;
 }
 
+	@media (min-width: 426px) and (max-width: 768px) {
+		#hero-banner > div {
+		width: 50%;
+		margin: 0 auto;
+	    }
+	}
+
 #hero-banner > div > div {
 	/*display: inline-block;*/
 }
